@@ -1,0 +1,21 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, sans-serif; background: #f6f7fb; color: #1f2430; }
+.navbar { display: flex; justify-content: space-between; align-items: center; padding: 14px 32px; background: #1f2a44; color: #fff; }
+.brand { font-weight: 700; font-size: 1.2rem; }
+.navbar nav a { color: #cdd5ea; text-decoration: none; margin-left: 20px; padding-bottom: 4px; }
+.navbar nav a.active { color: #fff; border-bottom: 2px solid #f2b84b; }
+.container { max-width: 1100px; margin: 0 auto; padding: 28px 20px 60px; }
+.lead { color: #5b6477; margin-bottom: 20px; }
+.btn { background: #1f2a44; color: #fff; border: 0; padding: 10px 18px; border-radius: 6px; cursor: pointer; font-size: 0.95rem; }
+.btn:hover { background: #2d3d63; }
+.btn-ghost { background: transparent; color: #1f2a44; border: 1px solid #1f2a44; }
+.add-form { display: grid; gap: 10px; max-width: 480px; padding: 18px; background: #fff; border: 1px solid #dde1ec; border-radius: 8px; }
+.add-form input, .add-form textarea { padding: 9px 10px; border: 1px solid #c5cbdb; border-radius: 6px; font: inherit; }
+.form-actions { display: flex; gap: 10px; }
+.book-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 22px; margin-top: 28px; }
+.book-card { background: #fff; border: 1px solid #dde1ec; border-radius: 8px; overflow: hidden; display: flex; flex-direction: column; }
+.book-card img { width: 100%; aspect-ratio: 3 / 4; object-fit: cover; background: #e6e9f2; }
+.book-info { padding: 14px; }
+.book-info h3 { margin: 0 0 6px; font-size: 1.05rem; }
+.book-meta { margin: 0 0 8px; color: #6a7388; font-size: 0.85rem; }
+.book-desc { margin: 0; font-size: 0.9rem; line-height: 1.5; }
